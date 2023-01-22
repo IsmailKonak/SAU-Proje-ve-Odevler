@@ -1,14 +1,14 @@
 /*************************************************************************
-**							Sakarya Üniversitesi
-**				  Bilgisayar ve Bilişim Bilimleri Fakültesi
-**					   Bilgisayar Mühendisliği Bölümü
-**   					  Programlamaya Giriş Dersi
+**				    Sakarya Ãœniversitesi
+**			Bilgisayar ve BiliÅŸim Bilimleri FakÃ¼ltesi
+**			       Bilgisayar MÃ¼hendisliÄŸi BÃ¶lÃ¼mÃ¼
+**   				  Programlamaya GiriÅŸ Dersi
 *
 *
-* 				Proje Numarası: 1
-* 				Öğrenci Adı: İsmail Konak
-* 				Öğrenci Numarası: G221210046
-* 				Ders Grubu: A
+* 				Proje NumarasÄ±: 1
+* 				Ã–Ã°renci AdÄ±: Ä°smail Konak
+* 				Ã–Ã°renci NumarasÄ±: 
+* 				Ders Grubu: 
 *
 ***************************************************************************/
 
@@ -56,7 +56,7 @@ public:
 		cin >> u_son_tuketim_t.yil;
 		cout << endl << "Urun Gram Basina Kalori: ";
 		cin >> u_kalori_per_gram;
-		cout << endl << "Urun Stok Bilgisi (Katı->Kg, Sıvı->L): ";
+		cout << endl << "Urun Stok Bilgisi (KatÃ½->Kg, SÃ½vÃ½->L): ";
 		cin >> u_stok_adet;
 		cout << endl << "Urun Fiyat (TL): ";
 		cin >> u_fiyat;
@@ -115,7 +115,7 @@ public:
 		return malzemeler;
 	}
 	void malzemeleri_kaydet() {
-		// Malzeme sayısınca i sayısı döndürülür
+		// Malzeme sayÃ½sÃ½nca i sayÃ½sÃ½ dÃ¶ndÃ¼rÃ¼lÃ¼r
 		for (int i = 0; i < malzeme_say; i++) {
 			Malzeme eklenek;
 			cout << "Malzemenin ismini giriniz: ";
@@ -123,7 +123,7 @@ public:
 			getline(cin, eklenek.isim);
 			cout << "Malzemenin olcu birimini giriniz (gr,ml,adet vb.): ";
 			cin >> eklenek.olcu;
-			cout << "Malzemenin miktarını giriniz: ";
+			cout << "Malzemenin miktarÃ½nÃ½ giriniz: ";
 			cin >> eklenek.miktar;
 			malzemeler[i] = eklenek;
 
@@ -358,7 +358,7 @@ int main() {
 			yemekler.open("yemekler.txt");
 			string text;
 			int index = 0;
-			// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+			// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 			while (getline(yemekler, text)) {
 				if (text.find("Yemek") != string::npos) {
 					string isim = text.substr(text.find(':') + 2, text.find("(") - (text.find(':') + 3));
@@ -402,7 +402,7 @@ int main() {
 			sleep(1500);
 			system("CLS");
 			cout << "\t \t Satis Menusune Hos Geldiniz" << endl;
-			// Kullanıcı istediği sürece tekrar tekrar satış yapılabilmesine olanak sağlar
+			// KullanÃ½cÃ½ istediÃ°i sÃ¼rece tekrar tekrar satÃ½Ã¾ yapÃ½labilmesine olanak saÃ°lar
 			do {
 				string yemek;
 				cout << "Satilacak yemek: " << endl;
@@ -486,7 +486,7 @@ void bolum_belirle(string dosya_ismi, string kelime,int degerler[2]) {
 	int satir = 1;
 	int ilgili = -1000000;
 	int ilgili_son = -10000;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(malzemeler, text)) {
 		if (text.find(kelime) != string::npos && text.find("Adi") != string::npos && ilgili < 0) {
 			ilgili = satir;
@@ -527,13 +527,13 @@ int depo_sil(string isim) {
 	int satir = 1;
 	int ilgili=-10000;
 	bool gecmi;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(depo, text)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text.find(isim) != string::npos && text.find("Adi") != string::npos && ilgili<0) {
 			ilgili = satir;
 		}
-		// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+		// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 		if ((ilgili + 8 > satir && satir >= ilgili)!=1) {
 			temp << text << endl;
 		}
@@ -557,13 +557,13 @@ void depo_guncelleme(string isim, int ozellik_satiri, string yeni_deger) {
 	string text;
 	int satir = 1;
 	int ilgili = -10;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(depo, text)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text.find(isim) != string::npos && text.find("Adi") != string::npos) {
 			ilgili = satir;
 		}
-		// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+		// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 		if (ilgili + 8 > satir && satir >= ilgili) {
 			if (satir == ilgili + ozellik_satiri) {
 				int pos = text.find_first_of(':') + 2;
@@ -607,13 +607,13 @@ float depo_rapor_alma(string isim, int ozellik_satiri,int yazdir) {
 	int satir = 1;
 	int ilgili = -10000;
 	float deger=-1;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(depo, text)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text.find(isim) != string::npos && text.find("Adi") != string::npos && ilgili < 0) {
 			ilgili = satir;
 		}
-		// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+		// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 		if (ilgili + 8 > satir && satir >= ilgili && ozellik_satiri != -1) {
 			if (satir == ilgili + ozellik_satiri) {
 				int pos = text.find_first_of(':') + 2;
@@ -665,9 +665,9 @@ int yemek_sil(string isim) {
 	string text;
 	int satir = 1;
 	int ilgili=-100000;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(yemek, text)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text.find(isim)!= string::npos && ilgili <0) {
 			ilgili = satir;
 		}
@@ -690,7 +690,7 @@ int yemek_sil(string isim) {
 	ofstream temp2("temp.txt");
 	satir = 1;
 	while (getline(malzemeler, text)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if ((ilgili_satirlar_malz[1] >= satir && satir >= ilgili_satirlar_malz[0]) != 1) {
 			temp2 << text << endl;
 		}
@@ -715,9 +715,9 @@ void yemek_malzeme_guncelleme(string yemek_isim, string ozellik, string yeni_deg
 	int satir = 1;
 	int ilgili_satirlar[2];
 	bolum_belirle("malzemeler.txt", yemek_isim, ilgili_satirlar);
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(malzemeler, text)) {
-		// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+		// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 		if (ilgili_satirlar[1] >= satir && satir >= ilgili_satirlar[0]) {
 			if (string::npos!=text.find(ozellik)) {
 				
@@ -763,9 +763,9 @@ int malzemeler_rapor_alma(string isim, string ozellik) {
 	int satir = 1;
 	int ilgili_satirlar[2] = {-100000,-10000};
 	bolum_belirle("malzemeler.txt", isim, ilgili_satirlar);
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(malzemeler, text)) {
-		// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+		// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 		if (ilgili_satirlar[1] >= satir && satir >= ilgili_satirlar[0]) {
 	
 			if (string::npos != text.find(ozellik) && ozellik != "hepsi") {
@@ -801,9 +801,9 @@ void yemek_depo_kontrol(string yemek,bool islemlerigoster) {
 	float secili_malzeme_depo_sayi = -987;
 
 	int atla;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(yemekler, text1)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text1.find(yemek) != string::npos) {
 			int pos = text1.find(')');
 			if (pos != string::npos) {
@@ -819,9 +819,9 @@ void yemek_depo_kontrol(string yemek,bool islemlerigoster) {
 		depo.open("depo.txt");
 		int ilgili_satir=-10, ilgili_satir2=-10;
 		satir1 = 1;
-		// istenen yemekler için gerekli malzemeler belirleniyor
+		// istenen yemekler iÃ§in gerekli malzemeler belirleniyor
 		while (getline(malzemeler, text2)) {
-			// ilgili satırda "yemek" degiskenindeki kelime var mı kontrol eder
+			// ilgili satÃ½rda "yemek" degiskenindeki kelime var mÃ½ kontrol eder
 			if (text2.find(yemek) != string ::npos) {
 				ilgili_satir = satir1;
 			}
@@ -841,7 +841,7 @@ void yemek_depo_kontrol(string yemek,bool islemlerigoster) {
 		}
 		satir2 = 1;
 		while (getline(depo, text3)) {
-			// ilgili satırda "secili_malzeme_text" degiskenindeki kelime var mı kontrol eder
+			// ilgili satÃ½rda "secili_malzeme_text" degiskenindeki kelime var mÃ½ kontrol eder
 			if (text3.find(secili_malzeme_text) != string::npos) {
 				ilgili_satir2 = satir2;
 			}
@@ -859,7 +859,7 @@ void yemek_depo_kontrol(string yemek,bool islemlerigoster) {
 			cout << "Gereken: " << secili_malzeme_text << " -> " << secili_malzeme_sayi << endl;
 			cout << "Depoda: " << secili_malzeme_text << " -> " << secili_malzeme_depo_sayi << endl;
 		}
-		// Depo ile gerekli malzemeler karsilastiriliyo, bunun sonucunda duruma göre depodan azaltma veya alisveris listesi olusturmaya gidiliyo
+		// Depo ile gerekli malzemeler karsilastiriliyo, bunun sonucunda duruma gÃ¶re depodan azaltma veya alisveris listesi olusturmaya gidiliyo
 		depo.close();
 		if (secili_malzeme_sayi <= secili_malzeme_depo_sayi) {
 			if (islemlerigoster == 1)
@@ -912,9 +912,9 @@ float yemek_maliyet(string yemek) {
 	float maliyet=0;
 	int ilgili_satir=-98;
 	int atla;
-	// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+	// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 	while (getline(yemekler, text1)) {
-		// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+		// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 		if (text1.find(yemek) != string::npos && malzeme_say == 0) {
 			int pos = text1.find(')');
 			if (pos != string::npos) {
@@ -926,12 +926,12 @@ float yemek_maliyet(string yemek) {
 	for (int i = 0; i < malzeme_say; i++) {
 		malzemeler.seekg(0, ios::beg);
 		satir1 = 1;
-		// ilgili dosyadaki her satır sırayla while döngüsü dödnükçe aracılığıyla "text" değişkenine atanır
+		// ilgili dosyadaki her satÃ½r sÃ½rayla while dÃ¶ngÃ¼sÃ¼ dÃ¶dnÃ¼kÃ§e aracÃ½lÃ½Ã°Ã½yla "text" deÃ°iÃ¾kenine atanÃ½r
 		while (getline(malzemeler, text1)) {
-			// İlgili dosyada isim degiskeni içindeki kelime bulunduğunda o kelimenin bulundugu satırı bulmamıza yarayan blok
+			// Ãlgili dosyada isim degiskeni iÃ§indeki kelime bulunduÃ°unda o kelimenin bulundugu satÃ½rÃ½ bulmamÃ½za yarayan blok
 			if (text1.find(yemek) != string::npos && ilgili_satir < 0)
 				ilgili_satir = satir1;
-			// Satir numarasi istenen araliktaysa bloğu çalıştırarak, istenilen kisimda islem yapilabilmesine olanak saglar
+			// Satir numarasi istenen araliktaysa bloÃ°u Ã§alÃ½Ã¾tÃ½rarak, istenilen kisimda islem yapilabilmesine olanak saglar
 			if (satir1 == ilgili_satir + i + 2 && ilgili_satir >= 0) {
 				int s = text1.find(" ", 2);
 				int s2 = text1.find(" ", s + 1);
