@@ -1,15 +1,15 @@
 
 /*************************************************************************
-**							Sakarya Üniversitesi
-**				  Bilgisayar ve Bilişim Bilimleri Fakültesi
-**					   Bilgisayar Mühendisliği Bölümü
-**   					  Programlamaya Giriş Dersi
+**							Sakarya Ãœniversitesi
+**				  Bilgisayar ve BiliÅŸim Bilimleri FakÃ¼ltesi
+**					   Bilgisayar MÃ¼hendisliÄŸi BÃ¶lÃ¼mÃ¼
+**   					  Programlamaya GiriÅŸ Dersi
 *
 *
-* 				Ödev Numarası: 2
-* 				Öğrenci Adı: İsmail Konak
-* 				Öğrenci Numarası: G221210046
-* 				Ders Grubu: A
+* 				Ã–dev NumarasÄ±: 2
+* 				Ã–ÄŸrenci AdÄ±: Ä°smail Konak
+* 				Ã–ÄŸrenci NumarasÄ±: 
+* 				Ders Grubu: 
 *
 ***************************************************************************/
 
@@ -155,7 +155,7 @@ int main() {
 	char devamtamam;
 	cout << setw(35)<<" "<< "Karmasik Sayilarla Islem Menusune Hos Geldiniz" << "\n \n";
 	Karmasik_Sayi baslangic_sayi = k_sayi_tanimla();
-	// İşlem menüsü kullanıcı 'h' basmadığı sürece çalışması için do-while döngüsü kullanıldı
+	// Ä°ÅŸlem menÃ¼sÃ¼ kullanÄ±cÄ± 'h' basmadÄ±ÄŸÄ± sÃ¼rece Ã§alÄ±ÅŸmasÄ± iÃ§in do-while dÃ¶ngÃ¼sÃ¼ kullanÄ±ldÄ±
 	do{
 		system("CLS");
 		cout << endl << endl << "Karmasik Sayiniz: ";
@@ -167,40 +167,40 @@ int main() {
 		cout << "4) Bolme" << endl;
 		cout << "5) Kutupsal Gosterim"<< endl;
 		cout << "Seciminiz: "; cin >> secim1;
-		// İşlem menüsünde kullanıcının yaptığı seçimlere göre işlem yapılabilmesi için switch-case yapısı koşul kullanıldı
+		// Ä°ÅŸlem menÃ¼sÃ¼nde kullanÄ±cÄ±nÄ±n yaptÄ±ÄŸÄ± seÃ§imlere gÃ¶re iÅŸlem yapÄ±labilmesi iÃ§in switch-case yapÄ±sÄ± koÅŸul kullanÄ±ldÄ±
 		switch (secim1)
 		{
 		case 1:
 			secim3 = parametre1();
 			secim2 = parametre2();
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// gerçel bir sayı olması durumunda çalışacak if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// gerÃ§el bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak if bloku
 			if (secim3 == 2) {
 				Karmasik_Sayi islem_sayi = k_sayi_tanimla();
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi += islem_sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi + islem_sayi).ifade();
 				}
 			}
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// karmaşık bir sayı olması durumunda çalışacak else if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// karmaÅŸÄ±k bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak else if bloku
 			else if (secim3 == 1) {
 				float sayi;
 				cout << "Bir sayi giriniz: "; cin >> sayi;
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi += sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi + sayi).ifade();
@@ -210,34 +210,34 @@ int main() {
 		case 2:
 			secim3 = parametre1();
 			secim2 = parametre2();
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// gerçel bir sayı olması durumunda çalışacak if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// gerÃ§el bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak if bloku
 			if (secim3 == 2) {
 				Karmasik_Sayi islem_sayi = k_sayi_tanimla();
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi -= islem_sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi - islem_sayi).ifade();
 				}
 			}
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// karmaşık bir sayı olması durumunda çalışacak else if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// karmaÅŸÄ±k bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak else if bloku
 			else if (secim3 == 1) {
 				float sayi;
 				cout << "Bir sayi giriniz: "; cin >> sayi;
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi -= sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi - sayi).ifade();
@@ -247,34 +247,34 @@ int main() {
 		case 3:
 			secim3 = parametre1();
 			secim2 = parametre2();
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// gerçel bir sayı olması durumunda çalışacak if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// gerÃ§el bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak if bloku
 			if (secim3 == 2) {
 				Karmasik_Sayi islem_sayi = k_sayi_tanimla();
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi *= islem_sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi * islem_sayi).ifade();
 				}
 			}
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// karmaşık bir sayı olması durumunda çalışacak else if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// karmaÅŸÄ±k bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak else if bloku
 			else if (secim3 == 1) {
 				float sayi;
 				cout << "Bir sayi giriniz: "; cin >> sayi;
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi *= sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi * sayi).ifade();
@@ -284,34 +284,34 @@ int main() {
 		case 4:
 			secim3 = parametre1();
 			secim2 = parametre2();
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// gerçel bir sayı olması durumunda çalışacak if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// gerÃ§el bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak if bloku
 			if (secim3 == 2) {
 				Karmasik_Sayi islem_sayi = k_sayi_tanimla();
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi /= islem_sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi / islem_sayi).ifade();
 				}
 			}
-			// Yapılacak işlemde kullanıcı tarafından girilecek sayının
-			// karmaşık bir sayı olması durumunda çalışacak else if bloku
+			// YapÄ±lacak iÅŸlemde kullanÄ±cÄ± tarafÄ±ndan girilecek sayÄ±nÄ±n
+			// karmaÅŸÄ±k bir sayÄ± olmasÄ± durumunda Ã§alÄ±ÅŸacak else if bloku
 			else if (secim3 == 1) {
 				float sayi;
 				do { cout << "Bir sayi giriniz: "; cin >> sayi; } while (sayi == 0);
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmesi durumunda çalışacak if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmesi durumunda Ã§alÄ±ÅŸacak if bloku
 				if (secim2 == 1) {
 					baslangic_sayi /= sayi;
 					cout << "Sonuc: ";
 					baslangic_sayi.ifade();
 				}
-				// Yapılacak işlemin sonucunun işlem yapılan sayıya kaydedilmemesi durumunda çalışacak else if bloku
+				// YapÄ±lacak iÅŸlemin sonucunun iÅŸlem yapÄ±lan sayÄ±ya kaydedilmemesi durumunda Ã§alÄ±ÅŸacak else if bloku
 				else if (secim2 == 2) {
 					cout << "Sonuc: ";
 					(baslangic_sayi / sayi).ifade();
@@ -324,7 +324,7 @@ int main() {
 			break;
 
 		default:
-			cout << "Bu numaralı tercih tanımlanmadı, lütfen tekar tercih yapınız"<<endl;
+			cout << "Bu numaralÄ± tercih tanÄ±mlanmadÄ±, lÃ¼tfen tekar tercih yapÄ±nÄ±z"<<endl;
 			break;
 		}
 		cout << "\n \n Baska islem yapmak ister misiniz (E/h): "; cin >> devamtamam;
