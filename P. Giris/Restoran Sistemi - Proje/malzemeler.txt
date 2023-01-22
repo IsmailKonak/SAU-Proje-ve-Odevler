@@ -1,0 +1,157 @@
+Yemek Adi: Un Helvasi
+Malzemeler: 
+	100 gr Tereyag
+	56 gr Un
+	400 gr Seker
+	200 ml Su
+********************************************************************************
+Yemek Adi: Sutlac
+Malzemeler: 
+	1000 ml Sut
+	180 gr Pirinc
+	200 gr Seker
+********************************************************************************
+Yemek Adi: Ciger Pilavi
+Malzemeler: 
+	360 gr Pirinc
+	250 gr Kuzu Cigeri
+	42 gr Tereyag
+	400 ml Su
+	2 gr Tuz
+********************************************************************************
+Yemek Adi: Patatesli Omlet
+Malzemeler: 
+	180 gr Patates
+	2 adet Yumurta
+	14 gr Tereyag
+********************************************************************************
+Yemek Adi: Profiterol
+Malzemeler: 
+	100 ml Su
+	180 gr Un
+	55 gr Tereyag
+	4 gr Tuz
+	4 adet Yumurta
+********************************************************************************
+Yemek Adi: Sahanda Sosisli Yumurta
+Malzemeler: 
+	42 gr Tereyag
+	45 gr Sosis
+	3 adet Yumurta
+	8 gr Tuz
+********************************************************************************
+Yemek Adi: Beze
+Malzemeler: 
+	160 gr Seker
+	2 adet Yumurta
+********************************************************************************
+Yemek Adi: Domates Corbasi
+Malzemeler: 
+	110 gr Domates
+	400 ml Su
+	96 ml Sut
+	42 gr Tereyag
+	16 gr Un
+	5 gr Domates Salcasi
+	8 gr Tuz
+	6 gr Karabiber
+	5 gr Seker
+********************************************************************************
+Yemek Adi: Cikolatali Kek
+Malzemeler: 
+	3 adet Yumurta
+	56 gr Un
+	80 gr Bitter Cikolata
+	96 ml Sut
+	64 gr Tereyag
+********************************************************************************
+Yemek Adi: Sufle
+Malzemeler: 
+	3 adet Yumurta
+	80 gr Un
+	100 gr Seker
+	50 gr Tereyag
+	100 gr Bitter Cikolata
+********************************************************************************
+Yemek Adi: Cikolatali Brownie
+Malzemeler: 
+	4 adet Yumurta
+	130 gr Un
+	220 gr Seker
+	4 gr Tuz
+	400 gr Bitter Cikolata
+********************************************************************************
+Yemek Adi: Cikolata Ruyasi
+Malzemeler: 
+	14 gr Tereyag
+	12 gr Un
+	100 gr Seker
+	1 adet Yumurta
+	240 gr Bitter Cikolata
+********************************************************************************
+Yemek Adi: Kurabiye Burger
+Malzemeler: 
+	150 gr Tereyag
+	540 gr Un
+	2 adet Yumurta
+	120 gr Pudra Sekeri
+	120 gr Bitter Cikolata
+********************************************************************************
+Yemek Adi: Bonibonlu Kurabiye
+Malzemeler: 
+	200 gr Tereyag
+	900 gr Un
+	160 gr Pudra Seker
+	1 adet Yumurta
+	5 gr Vanilya
+	4 gr Kabartma Tozu
+********************************************************************************
+Yemek Adi: Tereyagli Mini Top Kekler
+Malzemeler: 
+	125 gr Tereyag
+	360 gr Un
+	200 gr Seker
+	3 adet Yumurta
+	180 gr Dampla Cikolata
+	5 gr Vanilya
+	10 gr Kabartma Tozu
+	100 ml Sut
+********************************************************************************
+Yemek Adi: Domatesli Pilav
+Malzemeler: 
+	14 gr Tereyag
+	100 ml Su
+	220 gr Domates
+	8 gr Tuz
+	180 gr Pirinc
+********************************************************************************
+Yemek Adi: Mihlama
+Malzemeler: 
+	42 gr Tereyag
+	24 gr Un
+	325 gr Kasar
+	12 gr Tuz
+	80 ml Su
+********************************************************************************
+Yemek Adi: Spaetzle
+Malzemeler: 
+	9 gr Tereyag
+	450 gr Un
+	8 gr Tuz
+	6 adet Yumurta
+	250 ml Su
+********************************************************************************
+Yemek Adi: Citir Kasar Toplari
+Malzemeler: 
+	200 gr Kasar
+	24 gr Un
+	3 adet Yumurta
+********************************************************************************
+Yemek Adi: Firiska
+Malzemeler: 
+	14 gr Tuz
+	800 gr Un
+	100 gr Seker
+	2 adet Yumurta
+	240 gr Kiyma
+********************************************************************************

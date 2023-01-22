@@ -1,0 +1,40 @@
+Yemek Adi: Un Helvasi (malzeme sayisi: 4)
+ 
+Yemek Adi: Sutlac (malzeme sayisi: 3)
+ 
+Yemek Adi: Ciger Pilavi (malzeme sayisi: 5)
+ 
+Yemek Adi: Patatesli Omlet (malzeme sayisi: 3)
+ 
+Yemek Adi: Profiterol (malzeme sayisi: 5)
+ 
+Yemek Adi: Sahanda Sosisli Yumurta (malzeme sayisi: 4)
+ 
+Yemek Adi: Beze (malzeme sayisi: 2)
+ 
+Yemek Adi: Domates Corbasi (malzeme sayisi: 9)
+ 
+Yemek Adi: Cikolatali Kek (malzeme sayisi: 5)
+ 
+Yemek Adi: Sufle (malzeme sayisi: 5)
+ 
+Yemek Adi: Cikolatali Brownie (malzeme sayisi: 5)
+ 
+Yemek Adi: Cikolata Ruyasi (malzeme sayisi: 5)
+ 
+Yemek Adi: Kurabiye Burger (malzeme sayisi: 5)
+ 
+Yemek Adi: Bonibonlu Kurabiye (malzeme sayisi: 6)
+ 
+Yemek Adi: Tereyagli Mini Top Kekler (malzeme sayisi: 8)
+ 
+Yemek Adi: Domatesli Pilav (malzeme sayisi: 5)
+ 
+Yemek Adi: Mihlama (malzeme sayisi: 5)
+ 
+Yemek Adi: Spaetzle (malzeme sayisi: 5)
+ 
+Yemek Adi: Citir Kasar Toplari (malzeme sayisi: 3)
+ 
+Yemek Adi: Firiska (malzeme sayisi: 5)
+ 

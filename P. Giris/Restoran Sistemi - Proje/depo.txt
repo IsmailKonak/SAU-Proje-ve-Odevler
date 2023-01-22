@@ -1,0 +1,168 @@
+Urun Adi: Tereyag
+	 Urun Kategorisi: Sut Urunleri
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 7.44
+	 Urun Stok Adeti: 9.037000
+	 Urun Fiyati (TL): 232
+********************************************************************************
+Urun Adi: Un
+	 Urun Kategorisi: Un ve Tahil Urunleri
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 3.64
+	 Urun Stok Adeti: 34.200001
+	 Urun Fiyati (TL): 35
+********************************************************************************
+Urun Adi: Seker
+	 Urun Kategorisi: Seker
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 3.867
+	 Urun Stok Adeti: 29.900000
+	 Urun Fiyati (TL): 30
+********************************************************************************
+Urun Adi: Su
+	 Urun Kategorisi: Temel Malzeme
+	 Urun Uretim Tarihi: 0/0/0
+	 Urun Son Tuketim Tarihi: 12/12/100000
+	 Urun Gram Basina Kalori (gr/kcal): 0
+	 Urun Stok Adeti: 231.750000
+	 Urun Fiyati (TL): 7
+********************************************************************************
+Urun Adi: Sut
+	 Urun Kategorisi: Sut Urunleri
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0.64
+	 Urun Stok Adeti: 231.750000
+	 Urun Fiyati (TL): 25
+********************************************************************************
+Urun Adi: Pirinc
+	 Urun Kategorisi: Bakliyat
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 1.3
+	 Urun Stok Adeti: 49.279999
+	 Urun Fiyati (TL): 50
+********************************************************************************
+Urun Adi: Kuzu Cigeri
+	 Urun Kategorisi: Et Urunleri
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 1.35
+	 Urun Stok Adeti: 11.750000
+	 Urun Fiyati (TL): 209
+********************************************************************************
+Urun Adi: Patates
+	 Urun Kategorisi: Sebze
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0.767
+	 Urun Stok Adeti: 95.820000
+	 Urun Fiyati (TL): 10
+********************************************************************************
+Urun Adi: Yumurta (30 lu)
+	 Urun Kategorisi: Temel Malzeme
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 1.551
+	 Urun Stok Adeti: 111.000000
+	 Urun Fiyati (TL): 2.8
+********************************************************************************
+Urun Adi: Sosis
+	 Urun Kategorisi: Turuncgil
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 3.461
+	 Urun Stok Adeti: 79.955002
+	 Urun Fiyati (TL): 200
+********************************************************************************
+Urun Adi: Tuz
+	 Urun Kategorisi: Temel Malzeme
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0
+	 Urun Stok Adeti: 79.931992
+	 Urun Fiyati (TL): 12
+********************************************************************************
+Urun Adi: Domates
+	 Urun Kategorisi: Meyve
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0.177
+	 Urun Stok Adeti: 29.670000
+	 Urun Fiyati (TL): 12
+********************************************************************************
+Urun Adi: Domates Salcasý
+	 Urun Kategorisi: Meyve
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0.82
+	 Urun Stok Adeti: 29.670000
+	 Urun Fiyati (TL): 50
+********************************************************************************
+Urun Adi: Karabiber
+	 Urun Kategorisi: Baharat
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 2.5
+	 Urun Stok Adeti: 4.994000
+	 Urun Fiyati (TL): 160
+********************************************************************************
+Urun Adi: Bitter Cikolata
+	 Urun Kategorisi: Cikolata
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 5.46
+	 Urun Stok Adeti: 14.060000
+	 Urun Fiyati (TL): 320
+********************************************************************************
+Urun Adi: Pudra Sekeri
+	 Urun Kategorisi: Seker
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 3.889
+	 Urun Stok Adeti: 29.900000
+	 Urun Fiyati (TL): 90
+********************************************************************************
+Urun Adi: Kabartma Tozu
+	 Urun Kategorisi: Temel Malzeme
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 0.531
+	 Urun Stok Adeti: 6.986000
+	 Urun Fiyati (TL): 105
+********************************************************************************
+Urun Adi: Vanilya
+	 Urun Kategorisi: Aroma
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 4.03
+	 Urun Stok Adeti: 9.990000
+	 Urun Fiyati (TL): 100
+********************************************************************************
+Urun Adi: Damla Cikolata
+	 Urun Kategorisi: Cikolata
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 5.21
+	 Urun Stok Adeti: 1
+	 Urun Fiyati (TL): 146
+********************************************************************************
+Urun Adi: Kasar
+	 Urun Kategorisi: Sut Urunleri
+	 Urun Uretim Tarihi: 1/1/2022
+	 Urun Son Tuketim Tarihi: 12/12/2023
+	 Urun Gram Basina Kalori (gr/kcal): 3.5
+	 Urun Stok Adeti: 9.475000
+	 Urun Fiyati (TL): 148
+********************************************************************************
+Urun Adi: Kiyma
+	 Urun Kategorisi: Et Urunleri
+	 Urun Uretim Tarihi: 7/6/2022
+	 Urun Son Tuketim Tarihi: 6/7/2023
+	 Urun Gram Basina Kalori (gr/kcal): 2.407
+	 Urun Stok Adeti: 11.760000
+	 Urun Fiyati (TL): 130
+********************************************************************************
