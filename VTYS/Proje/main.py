@@ -13,7 +13,7 @@ import openai
 import json
 
 # openai.api_base = 'https://api.endpoints.anyscale.com/v1'
-openai.api_key = "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"
+openai.api_key = "sk-YOUR_OPENAI_API_KEY"
 
 conn = psycopg2.connect(
     host="localhost",
